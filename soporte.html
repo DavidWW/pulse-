@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulsos+ | Soporte</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #041c2c 0%, #0a3d5c 50%, #063a4f 100%);
+            color: #d0d0e0; min-height: 100vh; padding: 40px 20px;
+        }
+        .container { max-width: 720px; margin: 0 auto; }
+        .top-bar { display: flex; align-items: center; margin-bottom: 24px; gap: 12px; }
+        .back { color: #5cdede; text-decoration: none; font-size: 0.9em; }
+        .back:hover { text-decoration: underline; }
+        .lang-switch {
+            color: #7db8ff; text-decoration: none; font-size: 0.85em;
+            border: 1px solid rgba(100, 160, 255, 0.3); padding: 6px 14px;
+            border-radius: 8px; margin-left: auto;
+        }
+        .lang-switch:hover { background: rgba(100, 160, 255, 0.15); }
+        .header { display: flex; align-items: center; gap: 16px; margin-bottom: 6px; }
+        .header-icon { width: 48px; height: 48px; border-radius: 12px; overflow: hidden; }
+        .header-icon img { width: 100%; height: 100%; object-fit: cover; }
+        h1 { font-size: 2em; font-weight: 700; color: #ffffff; }
+        .subtitle { color: #5a8a9a; font-size: 0.95em; margin-bottom: 32px; }
+        h2 { font-size: 1.25em; font-weight: 600; color: #ffffff; margin-top: 28px; margin-bottom: 10px; }
+        p { line-height: 1.7; margin-bottom: 14px; font-size: 0.95em; }
+        a { color: #5cdede; }
+        .contact-box {
+            background: rgba(0, 200, 200, 0.08); border: 1px solid rgba(0, 200, 200, 0.2);
+            border-radius: 16px; padding: 24px; margin: 24px 0; text-align: center;
+        }
+        .contact-box a { color: #5cdede; font-size: 1.1em; font-weight: 500; }
+        .faq-item {
+            background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px; padding: 18px; margin-bottom: 12px;
+        }
+        .faq-item strong { color: #ffffff; display: block; margin-bottom: 6px; }
+        .footer {
+            color: #3a6a7a; font-size: 0.85em; margin-top: 40px; padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <a href="index.html" class="back">&larr; Inicio</a>
+            <a href="support.html" class="lang-switch">English</a>
+        </div>
+
+        <div class="header">
+            <div class="header-icon"><img src="icon.png" alt="Pulsos+"></div>
+            <h1>Soporte</h1>
+        </div>
+        <p class="subtitle">Estamos aqui para ayudarte</p>
+
+        <div class="contact-box">
+            <p style="margin-bottom: 8px; color: #8ab8cc;">Contacta con nosotros por email:</p>
+            <a href="mailto:david.margalef@me.com">david.margalef@me.com</a>
+        </div>
+
+        <h2>Preguntas frecuentes</h2>
+
+        <div class="faq-item">
+            <strong>No veo datos en la app o en los widgets</strong>
+            <p>Asegurate de haber concedido permisos de lectura a HealthKit. Ve a Ajustes &gt; Salud &gt; Acceso a datos y apps &gt; Pulsos+ y activa las categorias que desees visualizar. Si usas Apple Watch, verifica que los datos se estan sincronizando correctamente con tu iPhone.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Los widgets no se actualizan</strong>
+            <p>Los widgets de iOS se actualizan segun la frecuencia que permite el sistema. Puedes forzar una actualizacion abriendo la app principal. Si el problema persiste, intenta eliminar el widget y volver a agregarlo.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>El informe PDF no muestra algunos datos</strong>
+            <p>El informe solo incluye datos disponibles en HealthKit para el periodo seleccionado. Si no tienes datos registrados para una categoria (por ejemplo, presion arterial), esa seccion no aparecera en el informe.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Como restaurar mi compra</strong>
+            <p>Pulsos+ utiliza el sistema de compras de Apple. Si cambiaste de dispositivo o reinstalaste la app, abre Pulsos+ y busca la opcion "Restaurar compras" en la pantalla de compra. La restauracion es automatica si usas el mismo Apple ID.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Como solicitar un reembolso</strong>
+            <p>Los reembolsos los gestiona Apple directamente. Visita <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a> para solicitarlo.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Que dispositivos son compatibles</strong>
+            <p>Pulsos+ requiere un iPhone con iOS 17 o superior. Para obtener datos como frecuencia cardiaca, oxigeno en sangre o sueno, necesitas un Apple Watch. Tambien es compatible con datos de basculas inteligentes y tensiometros que se sincronicen con Apple Salud.</p>
+        </div>
+
+        <h2>No encuentras lo que buscas?</h2>
+        <p>Escribenos a <a href="mailto:david.margalef@me.com">david.margalef@me.com</a> describiendo tu problema con el mayor detalle posible. Intentaremos responderte en un plazo de 48 horas.</p>
+
+        <p class="footer">&copy; 2025 David. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
