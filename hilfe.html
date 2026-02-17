@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pulsos+ | Hilfe</title>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #041c2c 0%, #0a3d5c 50%, #063a4f 100%);
+            color: #d0d0e0; min-height: 100vh; padding: 40px 20px;
+        }
+        .container { max-width: 720px; margin: 0 auto; }
+        .top-bar { display: flex; align-items: center; margin-bottom: 24px; gap: 12px; }
+        .back { color: #5cdede; text-decoration: none; font-size: 0.9em; }
+        .back:hover { text-decoration: underline; }
+        .lang-switch {
+            color: #7db8ff; text-decoration: none; font-size: 0.85em;
+            border: 1px solid rgba(100, 160, 255, 0.3); padding: 6px 14px;
+            border-radius: 8px; margin-left: auto;
+        }
+        .lang-switch:hover { background: rgba(100, 160, 255, 0.15); }
+        .header { display: flex; align-items: center; gap: 16px; margin-bottom: 6px; }
+        .header-icon { width: 48px; height: 48px; border-radius: 12px; overflow: hidden; }
+        .header-icon img { width: 100%; height: 100%; object-fit: cover; }
+        h1 { font-size: 2em; font-weight: 700; color: #ffffff; }
+        .updated { color: #5a8a9a; font-size: 0.85em; margin-bottom: 32px; }
+        .subtitle { color: #5a8a9a; font-size: 0.95em; margin-bottom: 32px; }
+        h2 { font-size: 1.25em; font-weight: 600; color: #ffffff; margin-top: 28px; margin-bottom: 10px; }
+        p { line-height: 1.7; margin-bottom: 14px; font-size: 0.95em; }
+        ul { margin: 10px 0 14px 24px; line-height: 1.7; font-size: 0.95em; }
+        a { color: #5cdede; }
+        .contact-box {
+            background: rgba(0, 200, 200, 0.08); border: 1px solid rgba(0, 200, 200, 0.2);
+            border-radius: 16px; padding: 24px; margin: 24px 0; text-align: center;
+        }
+        .contact-box a { color: #5cdede; font-size: 1.1em; font-weight: 500; }
+        .faq-item {
+            background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px; padding: 18px; margin-bottom: 12px;
+        }
+        .faq-item strong { color: #ffffff; display: block; margin-bottom: 6px; }
+        .footer {
+            color: #3a6a7a; font-size: 0.85em; margin-top: 40px; padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="top-bar">
+            <a href="index.html" class="back">&larr; Startseite</a>
+            <a href="support.html" class="lang-switch">English</a>
+        </div>
+        <div class="header">
+            <div class="header-icon"><img src="icon.png" alt="Pulsos+"></div>
+            <h1>Hilfe</h1>
+        </div>
+        <p class="subtitle">Wir sind f&uuml;r Sie da</p>
+        
+        <div class="contact-box">
+            <p style="margin-bottom: 8px; color: #8ab8cc;">Kontaktieren Sie uns per E-Mail:</p>
+            <a href="mailto:david.margalef@me.com">david.margalef@me.com</a>
+        </div>
+
+        <h2>H&auml;ufig gestellte Fragen</h2>
+
+        <div class="faq-item">
+            <strong>Ich sehe keine Daten in der App oder den Widgets</strong>
+            <p>Stellen Sie sicher, dass Sie HealthKit-Leseberechtigungen erteilt haben. Gehen Sie zu Einstellungen &gt; Gesundheit &gt; Datenzugriff &gt; Pulsos+ und aktivieren Sie die gew&uuml;nschten Kategorien.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Widgets aktualisieren sich nicht</strong>
+            <p>iOS-Widgets werden vom System aktualisiert. &Ouml;ffnen Sie die App, um eine Aktualisierung zu erzwingen. Falls das Problem weiterhin besteht, entfernen Sie das Widget und f&uuml;gen Sie es erneut hinzu.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Der PDF-Bericht zeigt nicht alle Daten</strong>
+            <p>Der Bericht enth&auml;lt nur Daten, die in HealthKit f&uuml;r den ausgew&auml;hlten Zeitraum verf&uuml;gbar sind.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Kauf wiederherstellen</strong>
+            <p>&Ouml;ffnen Sie Pulsos+ und suchen Sie die Option &ldquo;K&auml;ufe wiederherstellen&rdquo;. Die Wiederherstellung erfolgt automatisch mit derselben Apple ID.</p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Erstattung anfordern</strong>
+            <p>Erstattungen werden von Apple verwaltet: <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a></p>
+        </div>
+
+        <div class="faq-item">
+            <strong>Kompatible Ger&auml;te</strong>
+            <p>Pulsos+ erfordert ein iPhone mit iOS 17+. F&uuml;r Herzfrequenz, Blutsauerstoff oder Schlaf ist eine Apple Watch erforderlich. Kompatibel mit smarten Waagen und Blutdruckmessger&auml;ten, die mit Apple Health synchronisieren.</p>
+        </div>
+
+        <h2>Nicht gefunden was Sie suchen?</h2>
+        <p>Schreiben Sie uns an <a href="mailto:david.margalef@me.com">david.margalef@me.com</a>. Wir antworten innerhalb von 48 Stunden.</p>
+    
+        <p class="footer">&copy; 2025 David. Alle Rechte vorbehalten.</p>
+    </div>
+</body>
+</html>
