@@ -47,63 +47,72 @@
             <div class="header-icon"><img src="icon.png" alt="Pulsos+"></div>
             <h1>Privacidad</h1>
         </div>
-        <p class="updated">Actualizado: febrero 2025</p>
+        <p class="updated">Actualizado: octubre de 2026</p>
 
         <h2>Resumen</h2>
-        <p>Pulsos+ es una app de informes de salud y widgets para iOS. Tu privacidad es nuestra prioridad. No recopilamos, almacenamos ni compartimos tus datos personales ni de salud. Toda la informacion permanece en tu dispositivo.</p>
+        <p>Pulsos+ es una app de informes y widgets de salud para iOS. Pulsos+ no envía tus datos de salud a ningún servidor, no los vende ni los comparte, y no necesita cuenta. Tus datos de salud se quedan en tu dispositivo y en tus propias copias de seguridad.</p>
 
         <h2>Datos de salud (HealthKit)</h2>
-        <p>Pulsos+ accede a datos de Apple HealthKit exclusivamente para mostrar tus metricas de salud en la app y generar informes PDF. Estos datos:</p>
+        <p>Pulsos+ lee los datos de Apple HealthKit solo para mostrar tus métricas en la app y en sus widgets y para generar informes PDF. Estos datos:</p>
         <ul>
-            <li>Se leen directamente desde HealthKit en tu dispositivo.</li>
-            <li>Nunca se envian a servidores externos.</li>
-            <li>Nunca se almacenan fuera de tu dispositivo.</li>
-            <li>Nunca se comparten con terceros.</li>
-            <li>Nunca se utilizan con fines publicitarios o de seguimiento.</li>
+            <li>Se leen directamente de HealthKit en tu dispositivo.</li>
+            <li>Nunca se envían a nuestros servidores ni a terceros.</li>
+            <li>Nunca se usan para publicidad ni para rastrearte.</li>
         </ul>
-        <p>Los informes PDF que generas se crean localmente en tu dispositivo. Tu decides si compartirlos o no.</p>
+        <p>Los informes PDF se crean en tu dispositivo y tú decides si los compartes. Se guarda cifrada en tu dispositivo una copia temporal del último informe, que se borra la siguiente vez que arranca la app.</p>
 
-        <h2>Categorias de datos accedidos</h2>
-        <p>La app puede solicitar acceso de lectura a las siguientes categorias de HealthKit, segun tu configuracion:</p>
+        <h2>Analíticas que importas</h2>
+        <p>Puedes importar tus propios informes de laboratorio en PDF, en foto o en CSV.</p>
+        <ul>
+            <li>Se leen en tu dispositivo, con el reconocimiento de texto de Apple, que funciona sin conexión. El documento no se sube a ningún sitio.</li>
+            <li>Pulsos+ no guarda una copia del documento original. Guarda solo lo que tú confirmas: la fecha, el laboratorio, el número de análisis, el nombre del fichero original y los resultados (prueba, valor, unidad y rango de referencia).</li>
+            <li>Esta información se guarda en el almacenamiento privado de la app en tu dispositivo, cifrada por iOS mientras el dispositivo está bloqueado.</li>
+            <li>Entra en las copias de seguridad de tu dispositivo (iCloud o tu ordenador) si las usas, como el resto de los datos de la app.</li>
+            <li>Puedes borrar una analítica importada cuando quieras desde la app.</li>
+        </ul>
+        <p>La lectura automática puede equivocarse. Tú eres responsable de comprobar que los valores importados coinciden con tu informe. Pulsos+ no es un producto sanitario y no sustituye el criterio de tu médico.</p>
+
+        <h2>Categorías de datos de HealthKit a las que se accede</h2>
+        <p>La app puede solicitar acceso de lectura a las siguientes categorías de HealthKit, según tu configuración:</p>
         <ul>
             <li>Frecuencia cardiaca y variabilidad (HRV)</li>
-            <li>Presion arterial</li>
-            <li>Oxigeno en sangre</li>
+            <li>Presión arterial</li>
+            <li>Oxígeno en sangre</li>
             <li>Temperatura corporal</li>
             <li>Peso, IMC, grasa corporal y masa magra</li>
-            <li>Datos de sueno</li>
+            <li>Datos de sueño</li>
             <li>Horas de pie</li>
-            <li>Calorias activas y en reposo</li>
+            <li>Calorías activas y en reposo</li>
             <li>Ciclo menstrual</li>
             <li>Actividades deportivas</li>
         </ul>
 
-        <h2>Datos que NO recopilamos</h2>
-        <p>Pulsos+ no recopila ningun dato personal. No recopilamos:</p>
+        <h2>Datos que NO recogemos</h2>
+        <p>Pulsos+ no recoge:</p>
         <ul>
-            <li>Nombre, email ni informacion de contacto.</li>
-            <li>Ubicacion ni datos de localizacion.</li>
-            <li>Identificadores de dispositivo con fines de seguimiento.</li>
-            <li>Datos de uso para analisis o publicidad.</li>
+            <li>Tu nombre, tu correo ni tus datos de contacto.</li>
+            <li>Tu ubicación.</li>
+            <li>Tus datos de salud ni el contenido de tus analíticas.</li>
+            <li>Identificadores para publicidad o rastreo.</li>
         </ul>
 
-        <h2>Analiticas</h2>
-        <p>Pulsos+ puede recopilar datos anonimos y agregados de uso (como numero de informes generados o widgets configurados) para mejorar la app. Estos datos no pueden identificarte personalmente y nunca incluyen datos de salud.</p>
+        <h2>Datos de uso</h2>
+        <p>Para mejorar la app, Pulsos+ recoge recuentos de uso, como el número de informes generados, de widgets configurados o de analíticas importadas y corregidas, y con qué frecuencia se usan esas funciones. Estos recuentos nunca incluyen valores de salud, nombres ni el contenido de los ficheros. Se guardan mediante CloudKit de Apple bajo un identificador aleatorio que la app crea y conserva en tu llavero de iCloud. No incluyen tu nombre ni tu correo, y no se usan para rastreo ni publicidad.</p>
 
         <h2>Compras</h2>
-        <p>Las compras dentro de la app se procesan a traves de Apple. No tenemos acceso a tu informacion de pago ni la almacenamos.</p>
+        <p>Las compras dentro de la app las procesa Apple. Pulsos+ no tiene acceso a tus datos de pago; solo sabe si Premium está desbloqueado.</p>
 
         <h2>Seguridad</h2>
-        <p>Tus datos de salud estan protegidos por las medidas de seguridad de iOS y HealthKit, incluyendo el cifrado del dispositivo. Pulsos+ no implementa mecanismos adicionales de transmision de datos porque no hay transmision: todo permanece en tu dispositivo.</p>
+        <p>Tus datos de salud están protegidos por las medidas de seguridad de iOS y de HealthKit, incluido el cifrado del dispositivo. Pulsos+ no tiene servidores que reciban tus datos de salud.</p>
 
         <h2>Menores</h2>
-        <p>Pulsos+ no esta dirigida a menores de 13 anos. No recopilamos informacion de menores de forma consciente.</p>
+        <p>Pulsos+ no está dirigida a menores de 13 años. No recopilamos información de menores de forma consciente.</p>
 
-        <h2>Cambios en esta politica</h2>
-        <p>Nos reservamos el derecho de actualizar esta politica de privacidad. Cualquier cambio sera publicado en esta pagina con la fecha de actualizacion correspondiente.</p>
+        <h2>Cambios en esta política</h2>
+        <p>Nos reservamos el derecho de actualizar esta política de privacidad. Cualquier cambio será publicado en esta página con la fecha de actualización correspondiente.</p>
 
         <h2>Contacto</h2>
-        <p>Si tienes preguntas sobre esta politica de privacidad, contactanos en: <a href="mailto:david.margalef@me.com">david.margalef@me.com</a></p>
+        <p>Si tienes preguntas sobre esta política de privacidad, contáctanos en: <a href="mailto:david.margalef@me.com">david.margalef@me.com</a></p>
 
         <p class="footer">&copy; 2025 David. Todos los derechos reservados.</p>
     </div>
